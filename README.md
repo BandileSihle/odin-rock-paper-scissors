@@ -1,2 +1,2 @@
-# odin-rock-paper-scissors
-My first JavaScript project
+# odin-rock-paper-scissor
+Rock Paper Scissors Game

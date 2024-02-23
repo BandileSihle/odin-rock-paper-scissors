@@ -13,7 +13,7 @@ function checkWinner(playerSelection, computerSelection) {
     }
     else if(
         (playerSelection == "rock" && computerSelection == "scissors") ||
-        (playerSelection == "scissor" && computerSelection == "paper") || 
+        (playerSelection == "scissors" && computerSelection == "paper") || 
         (playerSelection == "paper" && computerSelection == "rock")
         
     ) {
@@ -68,7 +68,7 @@ function playRound(playerSelection, computerSelection){
         else if(checkWinner(playerSelection, computerSelection) == "Computer") {
             scoreComputer++;
         } 
-        else if(checkWinner(playerSelection, computerSelection) == "Tie") {
+        else {
             scorePlayer++;scoreComputer++;
         }
         console.log(scorePlayer);
